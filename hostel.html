@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="hostel.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Hostel Survey Form</h1>
+        <form action="#" method="post">
+            <fieldset>
+                <div>
+                    <label for="fullname">Full Name: </label>
+                    <input type="text" id="fullname" name="fullname" required/>
+                </div>
+    
+                <div>
+                    <label for="studentid">Student ID: </label>
+                    <input type="number" id="studentid" name="studentid" required />
+                </div>
+    
+                <div>
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" name="email" required />
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <div>
+                    <label for="roomprefer">Room Preference: </label>
+                    <select id="roomprefer" name="roomprefer" required>
+                        <option value="">-- Select Room Preference --</option>
+                        <option value="single">Single</option>
+                        <option value="double">Double</option>
+                        <option value="triple">Triple</option>
+                        <option value="triple">Quadruple (4)</option>
+                      </select>
+                </div>
+
+                <div>
+                    <label for="study-room">Study Room: </label>
+                    <select id="study-room" name="study-room" required>
+                        <option value="">-- Select Rating --</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="common-area">Common area amenities: </label>
+                    <select id="common-area" name="common-area" required>
+                        <option value="">-- Select Rating --</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                   </select>
+                </div>
+
+                <div>
+                    <label for="laundry">Laundry services: </label>
+                    <select id="laundry" name="laundry" required>
+                        <option value="">-- Select Rating --</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                  </select>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <p>Please rate the cleanliness of the following areas on a scale of 1 to 5 (1 being very dirty and 5 being very clean): </p>
+                <div>
+                    <label for="rooms">Rooms: </label>
+                    <select id="rooms" name="rooms" required>
+                        <option value="">-- Select Rating --</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="bathrooms">Bathrooms: </label>
+                    <select id="bathrooms" name="bathrooms" required>
+                        <option value="">-- Select Rating --</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="common-spaces">Common Spaces: </label>
+                    <select id="common-spaces" name="common-spaces" required>
+                        <option value="">-- Select Rating --</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <label for="noise">How would you rate the noise level during study hours and sleeping time?</label>
+                <select id="noise" name="noise" required>
+                    <option value="">-- Select Rating --</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <label for="safety">How safe do you feel in the hostel premises? (Rate from 1 to 5)</label>
+                <select id="safety" name="safety" required>
+                    <option value="">-- Select Rating --</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <label for="maintenance">How satisfied are you with the maintenance services provided in the hostel? (Rate from 1  
+                    to 5)
+                </label>
+                <select id="maintenance" name="maintenance" required>
+                    <option value="">-- Select Rating --</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <label for="safety">How safe do you feel in the hostel premises? (Rate from 1 to 5)</label>
+                <select id="safety" name="safety" required>
+                    <option value="">-- Select Rating --</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <label for="meal">Please rate the quality and variety of food provided in the hostel mess on a scale of 1 to   
+                    5.
+               </label>
+                <select id="meal" name="meal" required>
+                    <option value="">-- Select Rating --</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <label for="dietprefer">Do you have any specific dietary requirements or restrictions? If yes, please specify.
+                </label>
+                <input type="text" id="dietprefer" placeholder="......">
+            </fieldset>
+
+            <fieldset>
+                <label for="recreation">How would you rate the availability and quality of recreational facilities in the hostel?  
+                    (Rate from 1 to 5)              
+                </label>
+                <select id="recreation" name="recreation" required>
+                    <option value="">-- Select Rating --</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <label for="communal-living">How would you describe the overall atmosphere and harmony among the residents?              
+                </label>
+                <select id="communal-living" name="communal-living" required>
+                    <option value="">-- Select Rating --</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <label for="visitor-policy">Do you think the existing visitor policies are effective? Please provide your feedback.              
+                </label>
+                <input type="text" id="visitor-policy" placeholder="enter your feedback here....">
+            </fieldset>
+
+            <fieldset>
+                <legend >Are you aware of the available channels to share concerns and complaints in the hostel?  
+                    Please select one:                           
+                </legend>
+                <label for="yes"><input type="radio" class="inline" id="yes" />Yes</label>
+                <label for="no"><input type="radio" class="inline" id="no" />No</label>
+            </fieldset>
+
+            <fieldset>
+                <label for="staff-interaction">How would you rate the behavior and helpfulness of the hostel staff members on a scale of 1 to 5?              
+                </label>
+                <select id="staff-interaction" name="staff-interaction" required>
+                    <option value="">-- Select Rating --</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <label for="suggestion">Please share any suggestions or additional comments you may have regarding the college hostel.              
+                </label>
+                <input type="text" id="suggestion" placeholder="enter your suggestions here....">
+            </fieldset>
+
+
+            <input type="submit" value="Submit" onclick="confirm('Do you want to submit??')" />
+
+        
+        </form>
+
+        <div class="space"></div>
+
+    </div>
+
+
+
+</body>
+</html>
